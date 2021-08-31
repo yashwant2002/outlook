@@ -1,31 +1,89 @@
-a{
-    text-align: center;
-    text-decoration: none;
+.sidenav {
+  height: 100%;
+  width: 175px;
+  background-color: #f4f4f4;
+  padding-top: 20px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+  background-color: #c6e0f5;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.outlook{
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 300;
 }
 li{
-    list-style-type: none;
-    padding-bottom: 10px;
+  list-style-type: none;
+  text-decoration: none;
 }
-a:hover{
-    color: black;
-    background-color: lightblue;
-    display: flex;
+.item{
+  text-decoration: none;
+  position: relative; right: inherit;;
 }
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: black;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: blue;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:blue;}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.menu{
+  background-color: #2b76da;
+  float: left;
+  padding-right: 15px;
+}
+.app{
+  background-color: black;
+  color: white;
+  padding-bottom: 9px;
+  padding-left: 50px;
+  font-size: 17px;
+}
+.main_nav_searchbar{
+  background-color: #eff6fc;
+  display: flex;
+  position: relative;
+
+}
+
+.email_list{
+   padding-left: 60px;
+   padding-top: 15px;
+   border: 0px;
+}
+.email_list div:hover{
+  background-color: #eff6fc;
+}
+.img{
+  margin: auto;
+  width: 25%;
+  padding-top: 22%;
+}
+input{
+  border: 0px;
+  width: 174px;
+  height: 35px;
+  background-color: #deecfa;
+}
+.search_logo{
+  position: absolute;
+}
+a{
+  text-decoration: none;
+}
