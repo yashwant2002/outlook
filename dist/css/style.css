@@ -46,14 +46,21 @@ body {
 .menu{
   background-color: #2b76da;
   float: left;
-  padding-right: 15px;
+  padding: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  height: 28px;
+
 }
 .app{
   background-color: black;
   color: white;
-  padding-bottom: 9px;
+  padding: 2px;
+  padding-bottom: 5px;
   padding-left: 50px;
   font-size: 17px;
+  height: 25px;
 }
 .main_nav_searchbar{
   background-color: #eff6fc;
@@ -86,4 +93,7 @@ input{
 }
 a{
   text-decoration: none;
+}
+iframe{
+  border:1px solid lightgray;
 }
